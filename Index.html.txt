@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muh Tegar Aditama - Portofolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #007acc;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      color: #666;
+      font-size: 1.1em;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      color: #222;
+    }
+
+    .bio {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .portfolio-item {
+      margin-bottom: 30px;
+      padding: 15px;
+      background-color: #fff;
+      border-left: 4px solid #007acc;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .contact {
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      border-left: 4px solid #28a745;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+
+    .social a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #007acc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/130" alt="Foto Profil" />
+    <h1>Muh Tegar Aditama</h1>
+    <p>Portofolio Kerja & Biografi Pribadi</p>
+  </header>
+
+  <section>
+    <h2>Biografi Singkat</h2>
+    <p class="bio">
+      Saya adalah seorang profesional dengan pengalaman di dunia promosi dan furniture. Saya memiliki keahlian dalam berkomunikasi dengan pelanggan dan membangun hubungan kerja yang baik. Tujuan saya adalah terus berkembang dalam bidang yang saya tekuni dan memberikan hasil terbaik dalam setiap proyek yang saya kerjakan.
+    </p>
+  </section>
+
+  <section>
+    <h2>Portofolio</h2>
+
+    <div class="portfolio-item">
+      <h3>Sales Promotion Boy - Toko Retail Modern</h3>
+      <p>Lebih dari dua tahun pengalaman menghadapi pelanggan secara langsung, memperkenalkan produk, dan meningkatkan penjualan.</p>
+    </div>
+
+    <div class="portfolio-item">
+      <h3>Divisi Furniture - Mitra 10</h3>
+      <p>Memberikan pelayanan terbaik kepada pelanggan, menjelaskan keunggulan produk, dan membantu memilih produk yang tepat.</p>
+    </div>
+
+    <div class="portfolio-item">
+      <h3>Editor Video - Blog EditorNewBe</h3>
+      <p>Membuat dan mengedit video untuk konten blog, meningkatkan daya tarik visual dan memperkuat pesan yang disampaikan.</p>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Kontak & Media Sosial</h2>
+    <div class="contact">
+      <p><strong>Email:</strong> tegarmuhtama@gmail.com</p>
+      <p><strong>Telepon:</strong> 0822-4815-7599</p>
+      <p><strong>Alamat:</strong> Makassar, Sulawesi Selatan</p>
+      <div class="social">
+        <a href="https://www.instagram.com/username" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/username" target="_blank">LinkedIn</a>
+        <a href="https://github.com/username" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Muh Tegar Aditama. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
